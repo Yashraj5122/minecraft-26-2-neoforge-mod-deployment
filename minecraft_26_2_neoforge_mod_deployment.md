@@ -243,12 +243,10 @@ Recommended operational practices:
 
 ```text
 Minecraft: 26.2
-NeoForge: 26.2.0.87
+NeoForge: 26.2.0.84
 Java: 25
 RAM: 4 GB
 Players: 5
 ```
 
-> **⚠ Unresolved discrepancy (carried over, still unverified):** This baseline lists NeoForge `26.2.0.87`, while the Pinning/Launcher Guidance and the rule below specify `26.2.0.84`. Confirm which build is actually intended before deployment.
-
-**Pinned-version rule:** Standardize the VPS and all player clients on the same NeoForge 26.2 build (resolve the discrepancy above first). Use only NeoForge 26.2 mod builds; do not mix loader variants.
+**Pinned-version rule:** Standardize the VPS and all player clients on NeoForge `26.2.0.84`. Use only NeoForge 26.2 mod builds; do not mix loader variants.
