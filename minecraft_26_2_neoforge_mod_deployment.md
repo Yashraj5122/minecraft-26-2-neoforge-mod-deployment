@@ -16,6 +16,8 @@
 
 This document reflects a **fresh dependency audit performed against the exact Minecraft 26.2 NeoForge release metadata** for every installed mod (via each mod's live Modrinth version record, not inferred from older Minecraft/Fabric/Forge builds). See sections 6–9 for corrected dependency and compatibility findings.
 
+> **Re-audited 2026-09-14** — every mod in `Mods/MOD_MANIFEST.csv` individually re-checked against live Modrinth NeoForge 26.2 metadata: all required dependencies present, no broken builds among installed mods, no active mod-to-mod conflicts. AzureLib Armor and Accessories confirmed to still have no NeoForge 26.2 build. Optional patch updates available but not required: JEI (`30.32.0.215`), Mob Lootbags (`1.11.3+neoforge-26.2`), Puzzles Lib (`26.2.4`).
+
 ## 2. Client-Only Mods
 
 | Mod | Purpose | Server Impact |
@@ -103,9 +105,9 @@ This document reflects a **fresh dependency audit performed against the exact Mi
 | Archers (RPG Series) | Armor Model API | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — archers v3.1.2+26.2 |
 | Archers (RPG Series) | Structure Pool API | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — archers v3.1.2+26.2 |
 | Archers (RPG Series) | Bundle API | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — archers v3.1.2+26.2 |
-| Sophisticated Backpacks | Sophisticated Core | Required | NeoForge | 26.2 | Yes | Installed (v26.2-1.5.0.2337) | Modrinth — sophisticated-backpacks v26.2-3.26.2.2154 |
 | Archers (RPG Series) | Spell Engine | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — archers v3.1.2+26.2 |
 | Archers (RPG Series) | Ranged Weapon API | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — archers v3.1.2+26.2 |
+| Sophisticated Backpacks | Sophisticated Core | Required | NeoForge | 26.2 | Yes | Installed (v26.2-1.5.0.2337) | Modrinth — sophisticated-backpacks v26.2-3.26.2.2154 |
 | Paladins & Priests (RPG Series) | Structure Pool API | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — paladins-and-priests v3.1.2+26.2 |
 | Paladins & Priests (RPG Series) | Spell Engine | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — paladins-and-priests v3.1.2+26.2 |
 | Paladins & Priests (RPG Series) | Armor Model API | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — paladins-and-priests v3.1.2+26.2 |
@@ -185,6 +187,7 @@ Neither AzureLib Armor nor Accessories is required by any other currently instal
 - **Jewelry (RPG Series) — corrected:** The current Jewelry 26.2 NeoForge release (`jewelry v2.4.1+26.2`) **uses Curios API**, not Accessories, for its accessory slots. Trinkets (Fabric-only) is not applicable to this NeoForge pack and was never required.
 - Previous statements describing AzureLib Armor or Accessories as blockers to Armory/Jewelry functionality are **withdrawn** — they were based on an incorrect dependency assumption, not on the actual 26.2 NeoForge metadata.
 - **Dynamic Lights** declares a "Fabric API required" dependency in its Modrinth metadata; this is a cross-loader artifact of a single multi-loader version listing and does not apply to the NeoForge build actually installed.
+- **Dynamic Lights** also declares Sodium Dynamic Lights and RyoamicLights as **incompatible** in its live version metadata. Neither is installed in this pack — do not add either alongside Dynamic Lights.
 - **DarkMobs** filename still reads `darkmobs-neoforge-26.1-1.2.7.jar`, but its version metadata explicitly lists `26.2` among supported game versions — the file is correct for this pack despite the outdated filename.
 - **Eating Animation Fork** is CurseForge-exclusive (not on Modrinth) — verified build `NeoForge-26.2+4.0.0` must be sourced and installed manually.
 - Keep using the exact **NeoForge** artifact for each mod. Do not substitute Fabric or Forge jars with the same Minecraft version.
