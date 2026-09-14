@@ -65,7 +65,6 @@ This document reflects a **fresh dependency audit performed against the exact Mi
 | Guard Villagers | Village guards | Low-Medium |
 | Dungeons & Taverns | Structures/dungeons | Medium during chunk generation |
 | Waystones | Fast travel | Low |
-| Mob Lootbags | Mob loot bags/rewards | Low |
 | Explorations | Additional exploration structures | Medium during chunk generation |
 | Structory | Atmospheric/world structures | Medium during chunk generation |
 | Sophisticated Backpacks | Upgradeable backpack storage | Low |
@@ -202,7 +201,7 @@ Neither AzureLib Armor nor Accessories is required by any other currently instal
 - Better Combat + Punchy!
 - Xaero's Minimap + Xaero's World Map
 - Sound Physics Remastered + AmbientSounds 6
-- Mob Lootbags + DarkMobs + Mutant Monsters
+- DarkMobs + Mutant Monsters
 
 ### Areas to test
 
@@ -214,7 +213,7 @@ Neither AzureLib Armor nor Accessories is required by any other currently instal
 
 ### Lowest impact
 
-- JEI, AppleSkin, Jade, Clumps, Let Me Despawn, Waystones, Corpse, Mob Lootbags
+- JEI, AppleSkin, Jade, Clumps, Let Me Despawn, Waystones, Corpse
 - Client-only visual/audio/UI mods (Section 2)
 
 ### Moderate impact

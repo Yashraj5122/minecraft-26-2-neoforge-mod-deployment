@@ -36,7 +36,6 @@ Full mod list for the private NeoForge 26.2 server, segregated by install target
 - Guard Villagers
 - Dungeons & Taverns
 - Waystones
-- Mob Lootbags
 - Explorations
 - Structory
 - Sophisticated Backpacks
