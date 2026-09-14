@@ -16,7 +16,7 @@
 
 This document reflects a **fresh dependency audit performed against the exact Minecraft 26.2 NeoForge release metadata** for every installed mod (via each mod's live Modrinth version record, not inferred from older Minecraft/Fabric/Forge builds). See sections 6–9 for corrected dependency and compatibility findings.
 
-> **Re-audited 2026-09-14** — every mod in `Mods/MOD_MANIFEST.csv` individually re-checked against live Modrinth NeoForge 26.2 metadata: all required dependencies present, no broken builds among installed mods, no active mod-to-mod conflicts. AzureLib Armor and Accessories confirmed to still have no NeoForge 26.2 build. Optional patch updates available but not required: JEI (`30.32.0.215`), Mob Lootbags (`1.11.3+neoforge-26.2`), Puzzles Lib (`26.2.4`).
+> **Re-audited 2026-09-14** — every mod in `Mods/MOD_MANIFEST.csv` individually re-checked against live Modrinth NeoForge 26.2 metadata: all required dependencies present, no broken builds among installed mods, no active mod-to-mod conflicts. AzureLib Armor and Accessories confirmed to still have no NeoForge 26.2 build. Patch updates applied: JEI → `30.32.0.215`, Mob Lootbags → `1.11.3+neoforge-26.2`, Puzzles Lib → `26.2.4`.
 
 ## 2. Client-Only Mods
 
