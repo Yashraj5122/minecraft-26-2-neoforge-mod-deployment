@@ -14,12 +14,10 @@ Full mod list for the private NeoForge 26.2 server, segregated by install target
 - Eating Animation Fork (manual CurseForge download)
 - RPG-HUD
 - Particular Reforged
-- Smooth Third Person Camera
 
 ## Server-Only (install on the VPS only)
 
 - Let Me Despawn
-- DarkMobs
 
 ## Client + Server (install on both VPS and player clients)
 

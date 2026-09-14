@@ -8,14 +8,14 @@
 | Minecraft Version | **26.2** |
 | Mod Loader | **NeoForge 26.2.0.84** |
 | Java | **Java 25** |
-| Server RAM | **4 GB** |
+| Server RAM | **6 GB** |
 | Server Type | Private Multiplayer / Co-op RPG |
 
 > **Deployment rule:** Use NeoForge 26.2 builds of all mods. Do not mix Fabric, Forge, or older Minecraft-version jars.
 
 This document reflects a **fresh dependency audit performed against the exact Minecraft 26.2 NeoForge release metadata** for every installed mod (via each mod's live Modrinth version record, not inferred from older Minecraft/Fabric/Forge builds). See sections 6–9 for corrected dependency and compatibility findings.
 
-> **Re-audited 2026-09-14** — every mod in `Mods/MOD_MANIFEST.csv` individually re-checked against live Modrinth NeoForge 26.2 metadata: all required dependencies present, no broken builds among installed mods, no active mod-to-mod conflicts. AzureLib Armor and Accessories confirmed to still have no NeoForge 26.2 build. Patch updates applied: JEI → `30.32.0.215`, Mob Lootbags → `1.11.3+neoforge-26.2`, Puzzles Lib → `26.2.4`.
+> **Re-audited 2026-09-14** — every mod in `Mods/MOD_MANIFEST.csv` individually re-checked against live Modrinth NeoForge 26.2 metadata: all required dependencies present, no broken builds among installed mods, no active mod-to-mod conflicts. AzureLib Armor and Accessories confirmed to still have no NeoForge 26.2 build. Patch updates applied: JEI → `30.32.0.215`, Puzzles Lib → `26.2.4`.
 
 ## 2. Client-Only Mods
 
@@ -31,7 +31,6 @@ This document reflects a **fresh dependency audit performed against the exact Mi
 | Eating Animation Fork | Eating/drinking animations | None |
 | RPG-HUD | RPG-oriented HUD | None |
 | Particular Reforged | Particle effects overhaul | None |
-| Smooth Third Person Camera | Smooths third-person camera movement | None |
 
 > **Note:** Xaero's Minimap/World Map and similar client experience mods may declare Client & Server in loader metadata, but for this private server they can be kept in the client pack unless a specific server-side integration is intentionally enabled.
 
@@ -46,7 +45,6 @@ This document reflects a **fresh dependency audit performed against the exact Mi
 | Mod | Purpose | Server Impact |
 |---|---|---|
 | Let Me Despawn | Mob despawning / entity management | Low / beneficial |
-| DarkMobs | Increased mob difficulty | Medium |
 
 ## 4. Client + Server Mods
 
@@ -229,7 +227,7 @@ Neither AzureLib Armor nor Accessories is required by any other currently instal
 
 These primarily add overhead during **new chunk generation and structure placement**, rather than continuously while the server is idle. (Classification unchanged — no dependency-metadata finding in this audit affects chunk-generation cost.)
 
-### 4 GB Server Guidance
+### 6 GB Server Guidance
 
 The current list is reasonable for a **private co-op server**, but the pack is no longer lightweight. The two newly confirmed required libraries (CreativeCore, Shogi) are lightweight utility/config libraries and do not change this assessment.
 
@@ -240,7 +238,7 @@ Recommended operational practices:
 - Pre-generate the initial playable region before opening the server.
 - Avoid multiple players rapidly generating terrain in distant directions.
 - Keep **Biomes O' Plenty** disabled until the current world-generation stack has been tested.
-- Do not add additional heavy world-generation or technology mods without re-evaluating the 4 GB allocation.
+- Do not add additional heavy world-generation or technology mods without re-evaluating the 6 GB allocation.
 
 ## Pinning / Launcher Guidance
 
@@ -249,7 +247,7 @@ Recommended operational practices:
 | Minecraft | **26.2** |
 | NeoForge | **26.2.0.84** |
 | Java | **25** |
-| Server RAM | **4 GB** |
+| Server RAM | **6 GB** |
 
 > **NeoForge 26.2.0.84 is pinned because it is the recommended/starred 26.2 NeoForge option available in TLauncher for your players.** Mod pages are validated against the 26.2 game line; they do not generally specify a minimum/maximum NeoForge patch within 26.2.
 
@@ -259,7 +257,7 @@ Recommended operational practices:
 Minecraft: 26.2
 NeoForge: 26.2.0.84
 Java: 25
-RAM: 4 GB
+RAM: 6 GB
 ```
 
 **Pinned-version rule:** Standardize the VPS and all player clients on NeoForge `26.2.0.84`. Use only NeoForge 26.2 mod builds; do not mix loader variants.

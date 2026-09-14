@@ -35,7 +35,7 @@ The pack includes [Iris Shaders](https://modrinth.com/mod/iris) for shader suppo
 | Minecraft | 26.2 |
 | NeoForge | 26.2.0.84 |
 | Java | 25 |
-| Server RAM | 4 GB |
+| Server RAM | 6 GB |
 
 ## Notes
 

@@ -9,7 +9,6 @@ AmbientSounds 6,client-only,DOWNLOADED_VERIFIED,6.3.6,AmbientSounds_NEOFORGE_v6.
 RPG-HUD,client-only,DOWNLOADED_VERIFIED,3.13,[26.2][NeoForge] RPG-HUD 3.13.jar,client-only/26.2NeoForge RPG-HUD 3.13.jar,5316c6dea43a55c7c44550ba74451ba41d206292,221321,rpg-hud,modrinth
 Particular Reforged,client-only,DOWNLOADED_VERIFIED,1.5.7,particular-26.2-NeoForge-1.5.7.jar,client-only/particular-26.2-NeoForge-1.5.7.jar,2935af27f8e828f808c30b45be4db7aeee93711a,281469,particular-reforged,modrinth
 Let Me Despawn,server-only,DOWNLOADED_VERIFIED,1.26.9.1,letmedespawn-neoforge-26.2-1.26.9.1.jar,server-only/letmedespawn-neoforge-26.2-1.26.9.1.jar,fc2de9fb126f71826debbb49af102463f83fac1f,23014,lmd,modrinth
-DarkMobs,server-only,DOWNLOADED_VERIFIED,1.2.7,darkmobs-neoforge-26.1-1.2.7.jar,server-only/darkmobs-neoforge-26.1-1.2.7.jar,4f280c9750add56fd379d280323bcfc719268d9d,17662,darkmobs,modrinth
 JEI,client-server,DOWNLOADED_VERIFIED,30.32.0.215,jei-26.2-neoforge-30.32.0.215.jar,client-server/jei-26.2-neoforge-30.32.0.215.jar,64a61ccfa841a0afd8fd3e396061ac72538c4238,1909433,jei,modrinth
 Better Combat,client-server,DOWNLOADED_VERIFIED,3.2.2+26.2-neoforge,bettercombat-neoforge-3.2.2+26.2.jar,client-server/bettercombat-neoforge-3.2.2+26.2.jar,ebe34e007a8308a0bf13332e8e75492012db965a,1043303,better-combat,modrinth
 Visual Workbench,client-server,DOWNLOADED_VERIFIED,26.2.1,VisualWorkbench-v26.2.1-mc26.2.x-NeoForge.jar,client-server/VisualWorkbench-v26.2.1-mc26.2.x-NeoForge.jar,d8a192deeb8d10d02f69c5c878cfc0c94ae8170c,67090,visual-workbench,modrinth
@@ -60,5 +59,4 @@ CreativeCore,dependencies,DOWNLOADED_VERIFIED,2.14.16,CreativeCore_NEOFORGE_v2.1
 Shogi,dependencies,DOWNLOADED_VERIFIED,26.2.0.5+neoforge-26.2,shogi-neoforge-26.2-26.2.0.5.jar,dependencies/shogi-neoforge-26.2-26.2.0.5.jar,,,shogi,modrinth
 Sophisticated Core,dependencies,DOWNLOADED_VERIFIED,26.2-1.5.0.2337,sophisticatedcore-26.2-1.5.0.2337.jar,dependencies/sophisticatedcore-26.2-1.5.0.2337.jar,971b2b22a7417639bd5ef2d10c3f91da3110c5a0,1834409,sophisticated-core,modrinth
 Sophisticated Backpacks,client-server,DOWNLOADED_VERIFIED,26.2-3.26.2.2154,sophisticatedbackpacks-26.2-3.26.2.2154.jar,client-server/sophisticatedbackpacks-26.2-3.26.2.2154.jar,5b9faaace66ce8ff3ba8cc8d2bf2200fce3e9eed,1264857,sophisticated-backpacks,modrinth
-Smooth Third Person Camera,client-only,DOWNLOADED_VERIFIED,26.09.12-mc26.2-neoforge,smooththirdpersoncamera-26.09.12-mc26.2.jar,client-only/smooththirdpersoncamera-26.09.12-mc26.2.jar,b62af1a8f2f0540cccdf57cd2a35f3f0b462eab3,861231,smooth-third-person-camera,modrinth
 Saddlebag,client-server,DOWNLOADED_VERIFIED,1.0.0,wolfSaddle-bag-26.2-NeoForge-1.0.0.jar,client-server/wolfSaddle-bag-26.2-NeoForge-1.0.0.jar,cdf01c980b38b3f939e20d1cd2f4e69953f2ba63,1320189,saddlebag,modrinth
