@@ -21,7 +21,6 @@ See [MOD_LIST.md](MOD_LIST.md) for what's in the pack, or the full [deployment d
 | File | Purpose |
 |---|---|
 | [`minecraft_26_2_neoforge_mod_deployment.md`](minecraft_26_2_neoforge_mod_deployment.md) | Full deployment doc: server config, mod lists by category, dependency audit, compatibility notes, performance guidance |
-| [`minecraft_26_2_neoforge_mod_deployment.xlsx`](minecraft_26_2_neoforge_mod_deployment.xlsx) | Spreadsheet version of the same |
 | [`MOD_LIST.md`](MOD_LIST.md) | Plain mod list segregated by client-only, server-only, and client+server |
 | [`Mods/MOD_MANIFEST.csv`](Mods/MOD_MANIFEST.csv) | Per-mod inventory (version, filename, sha1, size, Modrinth slug, source) for re-downloading and verifying every jar |
 
