@@ -10,7 +10,6 @@
 | Java | **Java 25** |
 | Server RAM | **4 GB** |
 | Server Type | Private Multiplayer / Co-op RPG |
-| Expected Players | **5** |
 
 > **Deployment rule:** Use NeoForge 26.2 builds of all mods. Do not mix Fabric, Forge, or older Minecraft-version jars.
 
@@ -229,7 +228,7 @@ These primarily add overhead during **new chunk generation and structure placeme
 
 ### 4 GB Server Guidance
 
-The current list is reasonable for a **5-player private co-op server**, but the pack is no longer lightweight. The two newly confirmed required libraries (CreativeCore, Shogi) are lightweight utility/config libraries and do not change this assessment.
+The current list is reasonable for a **private co-op server**, but the pack is no longer lightweight. The two newly confirmed required libraries (CreativeCore, Shogi) are lightweight utility/config libraries and do not change this assessment.
 
 Monitor: TPS, MSPT, CPU usage, Heap usage, Garbage-collection pauses, Entity count, Chunk-generation time.
 
@@ -248,7 +247,6 @@ Recommended operational practices:
 | NeoForge | **26.2.0.84** |
 | Java | **25** |
 | Server RAM | **4 GB** |
-| Expected players | **5** |
 
 > **NeoForge 26.2.0.84 is pinned because it is the recommended/starred 26.2 NeoForge option available in TLauncher for your players.** Mod pages are validated against the 26.2 game line; they do not generally specify a minimum/maximum NeoForge patch within 26.2.
 
@@ -259,7 +257,6 @@ Minecraft: 26.2
 NeoForge: 26.2.0.84
 Java: 25
 RAM: 4 GB
-Players: 5
 ```
 
 **Pinned-version rule:** Standardize the VPS and all player clients on NeoForge `26.2.0.84`. Use only NeoForge 26.2 mod builds; do not mix loader variants.

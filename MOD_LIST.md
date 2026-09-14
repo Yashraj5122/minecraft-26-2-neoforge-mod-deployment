@@ -1,6 +1,6 @@
 # Minecraft 26.2 Mod List (Client/Server)
 
-Full mod list for the private 5-player NeoForge 26.2 server, segregated by install target. Companion to [`minecraft_26_2_neoforge_mod_deployment.md`](minecraft_26_2_neoforge_mod_deployment.md) (full deployment doc with dependency audit and compatibility notes) and [`Mods/MOD_MANIFEST.csv`](Mods/MOD_MANIFEST.csv) (per-mod inventory).
+Full mod list for the private NeoForge 26.2 server, segregated by install target. Companion to [`minecraft_26_2_neoforge_mod_deployment.md`](minecraft_26_2_neoforge_mod_deployment.md) (full deployment doc with dependency audit and compatibility notes) and [`Mods/MOD_MANIFEST.csv`](Mods/MOD_MANIFEST.csv) (per-mod inventory).
 
 ## Client-Only (install on player clients, not the VPS)
 
