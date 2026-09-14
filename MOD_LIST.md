@@ -7,6 +7,7 @@ Full mod list for the private NeoForge 26.2 server, segregated by install target
 - Xaero's Minimap
 - Xaero's World Map
 - Sodium
+- Iris Shaders
 - Punchy! — First Person Animations
 - Dynamic Lights
 - AmbientSounds 6

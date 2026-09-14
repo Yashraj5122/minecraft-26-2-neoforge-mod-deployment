@@ -24,6 +24,7 @@ This document reflects a **fresh dependency audit performed against the exact Mi
 | Xaero's Minimap | Minimap and waypoints | None |
 | Xaero's World Map | Full-screen world map | None |
 | Sodium | Client rendering/FPS optimization | None |
+| Iris Shaders | Shader pack support | None |
 | Punchy! - First Person Animations | First-person combat animations | None |
 | Dynamic Lights | Dynamic handheld/world lighting | None |
 | AmbientSounds 6 | Environmental ambience | None |
@@ -91,6 +92,7 @@ This document reflects a **fresh dependency audit performed against the exact Mi
 | Mod | Dependency | Required/Optional | Platform | Minecraft Version | NeoForge Compatible | Notes | Source |
 |---|---|---|---|---|---|---|---|
 | Particular Reforged | BaguetteLib | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — particular-reforged v1.5.7 |
+| Iris Shaders | Sodium | Required | NeoForge | 26.2 | Yes | Installed (v0.9.2+mc26.2-neoforge, exact version pinned by Iris's own dependency record) | Modrinth — iris v1.11.4+26.2-neoforge |
 | Let Me Despawn | Almanac (Almanac Lib) | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — lmd v1.26.9.1 |
 | Better Combat | Player Animation Library | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — better-combat v3.2.2+26.2 |
 | Better Combat | Cloth Config API | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — better-combat v3.2.2+26.2 |
