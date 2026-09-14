@@ -31,6 +31,7 @@ This document reflects a **fresh dependency audit performed against the exact Mi
 | Eating Animation Fork | Eating/drinking animations | None |
 | RPG-HUD | RPG-oriented HUD | None |
 | Particular Reforged | Particle effects overhaul | None |
+| Smooth Third Person Camera | Smooths third-person camera movement | None |
 
 > **Note:** Xaero's Minimap/World Map and similar client experience mods may declare Client & Server in loader metadata, but for this private server they can be kept in the client pack unless a specific server-side integration is intentionally enabled.
 
@@ -67,6 +68,7 @@ This document reflects a **fresh dependency audit performed against the exact Mi
 | Explorations | Additional exploration structures | Medium during chunk generation |
 | Structory | Atmospheric/world structures | Medium during chunk generation |
 | Sophisticated Backpacks | Upgradeable backpack storage | Low |
+| Saddlebag | Wolf saddlebag storage / companion utility | Low |
 
 ## 5. RPG Series (ZsoltMolnarrr)
 

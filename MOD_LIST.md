@@ -13,6 +13,7 @@ Full mod list for the private 5-player NeoForge 26.2 server, segregated by insta
 - Eating Animation Fork (manual CurseForge download)
 - RPG-HUD
 - Particular Reforged
+- Smooth Third Person Camera
 
 ## Server-Only (install on the VPS only)
 
@@ -39,6 +40,7 @@ Full mod list for the private 5-player NeoForge 26.2 server, segregated by insta
 - Explorations
 - Structory
 - Sophisticated Backpacks
+- Saddlebag
 
 ## Client + Server — RPG Series (ZsoltMolnarrr, shared author/libraries)
 
