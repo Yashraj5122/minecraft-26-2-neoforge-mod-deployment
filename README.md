@@ -16,6 +16,10 @@ Reference documentation and mod pack for a private NeoForge 26.2 co-op/RPG serve
 
 See [MOD_LIST.md](MOD_LIST.md) for what's in the pack, or the full [deployment doc](minecraft_26_2_neoforge_mod_deployment.md) for per-mod details and compatibility notes.
 
+### Shaders
+
+The pack includes [Iris Shaders](https://modrinth.com/mod/iris) for shader support. Recommended shader pack: **[Complementary Reimagined](https://modrinth.com/shader/complementary-reimagined)** (`r5.8.1`, supports Minecraft 26.2 on Iris) — drop the shaderpack `.zip` into `.minecraft/shaderpacks` and select it from Iris' in-game shader menu.
+
 ## Contents
 
 | File | Purpose |

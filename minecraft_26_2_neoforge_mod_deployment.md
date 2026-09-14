@@ -39,6 +39,8 @@ This document reflects a **fresh dependency audit performed against the exact Mi
 
 > **Eating Animation Fork:** Not distributed on Modrinth — the verified NeoForge 26.2 build (`NeoForge-26.2+4.0.0`) must be downloaded manually from CurseForge (`eating-animation-fork`).
 
+> **Iris Shaders — recommended shader pack:** [Complementary Reimagined](https://modrinth.com/shader/complementary-reimagined) `r5.8.1` (Minecraft 26.2, Iris-compatible). Shader packs are not mods — download the `.zip` from Modrinth and place it in `.minecraft/shaderpacks`, then select it from the Iris in-game shader menu. Not bundled in the mod manifest/pack since it installs separately.
+
 ## 3. Server-Only Mods
 
 | Mod | Purpose | Server Impact |
