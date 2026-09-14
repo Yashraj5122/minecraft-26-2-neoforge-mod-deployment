@@ -59,3 +59,5 @@ Balm,dependencies,DOWNLOADED_VERIFIED,26.2.0.8+neoforge-26.2,balm-neoforge-26.2-
 Eating Animation Fork,client-only,MANUAL_DOWNLOAD_REQUIRED_CURSEFORGE,NeoForge-26.2+4.0.0,(download manually),,,,,curseforge.com/minecraft/mc-mods/eating-animation-fork
 CreativeCore,dependencies,DOWNLOADED_VERIFIED,2.14.16,CreativeCore_NEOFORGE_v2.14.16_mc26.2.jar,dependencies/CreativeCore_NEOFORGE_v2.14.16_mc26.2.jar,,,creativecore,modrinth
 Shogi,dependencies,DOWNLOADED_VERIFIED,26.2.0.5+neoforge-26.2,shogi-neoforge-26.2-26.2.0.5.jar,dependencies/shogi-neoforge-26.2-26.2.0.5.jar,,,shogi,modrinth
+Sophisticated Core,dependencies,DOWNLOADED_VERIFIED,26.2-1.5.0.2337,sophisticatedcore-26.2-1.5.0.2337.jar,dependencies/sophisticatedcore-26.2-1.5.0.2337.jar,971b2b22a7417639bd5ef2d10c3f91da3110c5a0,1834409,sophisticated-core,modrinth
+Sophisticated Backpacks,client-server,DOWNLOADED_VERIFIED,26.2-3.26.2.2154,sophisticatedbackpacks-26.2-3.26.2.2154.jar,client-server/sophisticatedbackpacks-26.2-3.26.2.2154.jar,5b9faaace66ce8ff3ba8cc8d2bf2200fce3e9eed,1264857,sophisticated-backpacks,modrinth

@@ -64,6 +64,7 @@ This document reflects a **fresh dependency audit performed against the exact Mi
 | Mob Lootbags | Mob loot bags/rewards | Low |
 | Explorations | Additional exploration structures | Medium during chunk generation |
 | Structory | Atmospheric/world structures | Medium during chunk generation |
+| Sophisticated Backpacks | Upgradeable backpack storage | Low |
 
 ## 5. RPG Series (ZsoltMolnarrr)
 
@@ -102,6 +103,7 @@ This document reflects a **fresh dependency audit performed against the exact Mi
 | Archers (RPG Series) | Armor Model API | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — archers v3.1.2+26.2 |
 | Archers (RPG Series) | Structure Pool API | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — archers v3.1.2+26.2 |
 | Archers (RPG Series) | Bundle API | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — archers v3.1.2+26.2 |
+| Sophisticated Backpacks | Sophisticated Core | Required | NeoForge | 26.2 | Yes | Installed (v26.2-1.5.0.2337) | Modrinth — sophisticated-backpacks v26.2-3.26.2.2154 |
 | Archers (RPG Series) | Spell Engine | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — archers v3.1.2+26.2 |
 | Archers (RPG Series) | Ranged Weapon API | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — archers v3.1.2+26.2 |
 | Paladins & Priests (RPG Series) | Structure Pool API | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — paladins-and-priests v3.1.2+26.2 |
@@ -161,6 +163,13 @@ Neither AzureLib Armor nor Accessories is required by any other currently instal
 | Ranged Weapon API | EMI | Optional | — | — | **No NeoForge 26.2 build found** | Not installed; not needed since JEI already covers recipe lookup | Modrinth — ranged-weapon-api v4.0.0+26.2 |
 | BaguetteLib | YetAnotherConfigLib (YACL) | Optional | Fabric | — | N/A | Fabric-only config UI; not applicable to the NeoForge build | Modrinth — baguettelib v2.0.5 |
 | ForgeEndertech | Advanced Chimneys | Optional | NeoForge | 26.2 | Yes | Not installed; cosmetic add-on only | Modrinth — forgeendertech v26.2.0.2 |
+| Sophisticated Backpacks | Just Enough Items (JEI) | Optional | NeoForge | 26.2 | Yes | Already installed (recipe/upgrade lookup) | Modrinth — sophisticated-backpacks v26.2-3.26.2.2154 |
+| Sophisticated Backpacks | Curios API | Optional | NeoForge | 26.2 | Yes | Already installed (required elsewhere) | Modrinth — sophisticated-backpacks v26.2-3.26.2.2154 |
+| Sophisticated Backpacks | TrashSlot | Optional | NeoForge | 26.2 | Yes | Not installed; adds a trash slot integration | Modrinth — sophisticated-backpacks v26.2-3.26.2.2154 |
+| Sophisticated Backpacks | Item Borders | Optional | NeoForge | 26.2 | Yes | Not installed; cosmetic rarity borders | Modrinth — sophisticated-backpacks v26.2-3.26.2.2154 |
+| Sophisticated Backpacks | Chipped | Optional | NeoForge | 26.2 | Yes | Not installed; cosmetic backpack skins | Modrinth — sophisticated-backpacks v26.2-3.26.2.2154 |
+| Sophisticated Backpacks | Sawmill | Optional | NeoForge | 26.2 | Yes | Not installed | Modrinth — sophisticated-backpacks v26.2-3.26.2.2154 |
+| Sophisticated Backpacks | Crafting Tweaks | Optional | NeoForge | 26.2 | Yes | Not installed | Modrinth — sophisticated-backpacks v26.2-3.26.2.2154 |
 
 ## 8. TBD / On Hold Mods
 
