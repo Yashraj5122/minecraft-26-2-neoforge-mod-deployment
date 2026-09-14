@@ -30,7 +30,6 @@ Full mod list for the private 5-player NeoForge 26.2 server, segregated by insta
 - Mutant Monsters
 - Advanced Hook Launchers
 - Clumps
-- Day Counter
 - Jade
 - Corpse
 - Guard Villagers

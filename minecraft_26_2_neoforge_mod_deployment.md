@@ -58,7 +58,6 @@ This document reflects a **fresh dependency audit performed against the exact Mi
 | Mutant Monsters | Mutant mobs | Medium |
 | Advanced Hook Launchers | Grappling/traversal mechanics | Low |
 | Clumps | XP orb merging | Beneficial / Very Low |
-| Day Counter | World-day counter | Very Low |
 | Jade | Block/entity information | Very Low |
 | Corpse | Death-item recovery | Low |
 | Guard Villagers | Village guards | Low-Medium |
