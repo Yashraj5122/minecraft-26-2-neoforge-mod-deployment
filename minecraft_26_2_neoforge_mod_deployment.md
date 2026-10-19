@@ -26,6 +26,7 @@ This document reflects a **fresh dependency audit performed against the exact Mi
 | Sodium | Client rendering/FPS optimization | None |
 | Iris Shaders | Shader pack support | None |
 | Punchy! - First Person Animations | First-person combat animations | None |
+| Not Enough Animations | Adds third-person versions of first-person animations | None |
 | Dynamic Lights | Dynamic handheld/world lighting | None |
 | AmbientSounds 6 | Environmental ambience | None |
 | Eating Animation Fork | Eating/drinking animations | None |
@@ -37,6 +38,8 @@ This document reflects a **fresh dependency audit performed against the exact Mi
 > **Particular Reforged:** Current NeoForge 26.2 build should be treated as **client-side** and should not be installed on the dedicated server unless the exact build documentation requires it.
 
 > **Eating Animation Fork:** Not distributed on Modrinth — the verified NeoForge 26.2 build (`NeoForge-26.2+4.0.0`) must be downloaded manually from CurseForge (`eating-animation-fork`).
+
+> **First-person Model:** Excluded after the user confirmed its first-person animation view glitches with Punchy!. Not Enough Animations remains listed independently as a client-only mod.
 
 > **Iris Shaders — recommended shader pack:** [Complementary Reimagined](https://modrinth.com/shader/complementary-reimagined) `r5.8.1` (Minecraft 26.2, Iris-compatible). Shader packs are not mods — download the `.zip` from Modrinth and place it in `.minecraft/shaderpacks`, then select it from the Iris in-game shader menu. Not bundled in the mod manifest/pack since it installs separately.
 
@@ -58,6 +61,7 @@ This document reflects a **fresh dependency audit performed against the exact Mi
 | Mutant Monsters | Mutant mobs | Medium |
 | Advanced Hook Launchers | Grappling/traversal mechanics | Low |
 | Clumps | XP orb merging | Beneficial / Very Low |
+| Combat Roll | Dodge roll ability, attributes, enchantments, and statistics | Low |
 | Jade | Block/entity information | Very Low |
 | Corpse | Death-item recovery | Low |
 | Guard Villagers | Village guards | Low-Medium |
@@ -95,6 +99,8 @@ This document reflects a **fresh dependency audit performed against the exact Mi
 | Let Me Despawn | Almanac (Almanac Lib) | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — lmd v1.26.9.1 |
 | Better Combat | Player Animation Library | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — better-combat v3.2.2+26.2 |
 | Better Combat | Cloth Config API | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — better-combat v3.2.2+26.2 |
+| Combat Roll | Player Animation Library | Required | NeoForge | 26.2 | Yes | Installed (`1.2.6`) | Combat Roll v3.0.1+26.2 JAR metadata |
+| Combat Roll | Cloth Config API | Required | NeoForge | 26.2 | Yes | Installed (`26.2.155`) | Combat Roll v3.0.1+26.2 JAR metadata |
 | Visual Workbench | Puzzles Lib | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — visual-workbench v26.2.1 |
 | Mutant Monsters | Puzzles Lib | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — mutant-monsters v26.2.2 |
 | Advanced Hook Launchers | ForgeEndertech | Required | NeoForge | 26.2 | Yes | Installed | Modrinth — advanced-hook-launchers v26.2.0.0 |
@@ -191,6 +197,8 @@ Neither AzureLib Armor nor Accessories is required by any other currently instal
 - **Dynamic Lights** also declares Sodium Dynamic Lights and RyoamicLights as **incompatible** in its live version metadata. Neither is installed in this pack — do not add either alongside Dynamic Lights.
 - **DarkMobs** filename still reads `darkmobs-neoforge-26.1-1.2.7.jar`, but its version metadata explicitly lists `26.2` among supported game versions — the file is correct for this pack despite the outdated filename.
 - **Eating Animation Fork** is CurseForge-exclusive (not on Modrinth) — verified build `NeoForge-26.2+4.0.0` must be sourced and installed manually.
+- **Not Enough Animations** is client-side only and does not need to be installed on the VPS. First-person Model is excluded after its first-person animation view was confirmed to glitch with Punchy!.
+- **Combat Roll** is a client-and-server mod; its NeoForge 26.2 JAR metadata requires Player Animation Library and Cloth Config API, both listed in the manifest.
 - Keep using the exact **NeoForge** artifact for each mod. Do not substitute Fabric or Forge jars with the same Minecraft version.
 
 ### Good combinations

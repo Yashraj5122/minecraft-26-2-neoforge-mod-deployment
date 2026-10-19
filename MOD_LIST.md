@@ -9,6 +9,7 @@ Full mod list for the private NeoForge 26.2 server, segregated by install target
 - Sodium
 - Iris Shaders
 - Punchy! — First Person Animations
+- Not Enough Animations
 - Dynamic Lights
 - AmbientSounds 6
 - Eating Animation Fork (manual CurseForge download)
@@ -29,6 +30,7 @@ Full mod list for the private NeoForge 26.2 server, segregated by install target
 - Mutant Monsters
 - Advanced Hook Launchers
 - Clumps
+- Combat Roll
 - Jade
 - Corpse
 - Guard Villagers
