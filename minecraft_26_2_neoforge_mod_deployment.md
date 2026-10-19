@@ -26,7 +26,6 @@ This document reflects a **fresh dependency audit performed against the exact Mi
 | Sodium | Client rendering/FPS optimization | None |
 | Iris Shaders | Shader pack support | None |
 | Punchy! - First Person Animations | First-person combat animations | None |
-| Not Enough Animations | Adds third-person versions of first-person animations | None |
 | Dynamic Lights | Dynamic handheld/world lighting | None |
 | AmbientSounds 6 | Environmental ambience | None |
 | Eating Animation Fork | Eating/drinking animations | None |
@@ -39,7 +38,7 @@ This document reflects a **fresh dependency audit performed against the exact Mi
 
 > **Eating Animation Fork:** Not distributed on Modrinth — the verified NeoForge 26.2 build (`NeoForge-26.2+4.0.0`) must be downloaded manually from CurseForge (`eating-animation-fork`).
 
-> **First-person Model:** Excluded after the user confirmed its first-person animation view glitches with Punchy!. Not Enough Animations remains listed independently as a client-only mod.
+> **First-person Model:** Excluded after the user confirmed its first-person animation view glitches with Punchy!.
 
 > **Iris Shaders — recommended shader pack:** [Complementary Reimagined](https://modrinth.com/shader/complementary-reimagined) `r5.8.1` (Minecraft 26.2, Iris-compatible). Shader packs are not mods — download the `.zip` from Modrinth and place it in `.minecraft/shaderpacks`, then select it from the Iris in-game shader menu. Not bundled in the mod manifest/pack since it installs separately.
 
@@ -197,7 +196,7 @@ Neither AzureLib Armor nor Accessories is required by any other currently instal
 - **Dynamic Lights** also declares Sodium Dynamic Lights and RyoamicLights as **incompatible** in its live version metadata. Neither is installed in this pack — do not add either alongside Dynamic Lights.
 - **DarkMobs** filename still reads `darkmobs-neoforge-26.1-1.2.7.jar`, but its version metadata explicitly lists `26.2` among supported game versions — the file is correct for this pack despite the outdated filename.
 - **Eating Animation Fork** is CurseForge-exclusive (not on Modrinth) — verified build `NeoForge-26.2+4.0.0` must be sourced and installed manually.
-- **Not Enough Animations** is client-side only and does not need to be installed on the VPS. First-person Model is excluded after its first-person animation view was confirmed to glitch with Punchy!.
+- **First-person Model** is excluded after its first-person animation view was confirmed to glitch with Punchy!.
 - **Combat Roll** is a client-and-server mod; its NeoForge 26.2 JAR metadata requires Player Animation Library and Cloth Config API, both listed in the manifest.
 - Keep using the exact **NeoForge** artifact for each mod. Do not substitute Fabric or Forge jars with the same Minecraft version.
 
